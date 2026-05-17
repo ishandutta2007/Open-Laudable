@@ -153,3 +153,19 @@ This comprehensive guide positions Open-Lovable as the go-to "open source AI app
 -  openlovable-sh/openlovable: Local, open-source AI app builder for power users v0 / Lovable / Replit / Bolt alternative Star if you like it! - GitHub - https://github.com/openlovable-sh/openlovable
 -  GitHub - openlovable-sh/openlovable: Local, open-source AI app builder for power users ✨ v0 / Lovable / Replit / Bolt alternative 🌟 Star if you like it! - https://github.com/openlovable-sh/openlovable
 
+
+## 📈 Star History
+
+<div align="center">
+   <a href="https://www.star-history.com/?repos=ishandutta2007%2FOpen-Lovable&type=date&legend=bottom-right">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Open-Lovable&type=date&theme=dark&legend=bottom-right" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Open-Lovable&type=date&legend=bottom-right" />
+      <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Open-Lovable&type=date&legend=bottom-right" />
+    </picture>
+   </a>
+</div>
+
+
+
+
