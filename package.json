@@ -3,7 +3,7 @@
   "version": "0.36.0",
   "description": "Free, local, open-source AI app builder",
   "keywords": [],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "author": {
     "name": "Will Chen",
     "email": "willchen90@gmail.com"
