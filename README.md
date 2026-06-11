@@ -5,6 +5,12 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Open-Lovable.svg?style=social)](https://github.com/ishandutta2007/Open-Lovable/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Open-Lovable.svg?style=social)](https://github.com/ishandutta2007/Open-Lovable/network/members)
+<a href="https://github.com/ishandutta2007">
+  <img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow&style=for-the-badge&logo=github&logoColor=white" alt="Github"/>
+</a>
+
+
+
 ### Key Points
 - **Open Source Alternative to Lovable**: Open-Lovable is a free, local, open-source AI app builder designed as a direct alternative to Lovable, enabling users to generate full-stack web apps from natural language prompts without vendor lock-in or subscription fees.
 - **Core Functionality**: It runs entirely on your machine, supports multiple AI models (e.g., via OpenAI, Anthropic, or local Ollama), and produces editable source code for React-based frontends with Tailwind CSS, integrated backends, and databases like Supabase.
