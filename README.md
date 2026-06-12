@@ -6,8 +6,8 @@
 
 **The Ultimate Open-Source AI App Builder Alternative to Lovable, v0, and Bolt.new**
 
-[![GitHub stars](https://img.shields.io/github/stars/openlovable-sh/openlovable?style=for-the-badge&color=ffd700&labelColor=333)](https://github.com/openlovable-sh/openlovable/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/openlovable-sh/openlovable?style=for-the-badge&color=blue&labelColor=333)](https://github.com/openlovable-sh/openlovable/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Open-Laudable?style=for-the-badge&color=ffd700&labelColor=333)](https://github.com/ishandutta2007/Open-Laudable/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Open-Laudable?style=for-the-badge&color=blue&labelColor=333)](https://github.com/ishandutta2007/Open-Laudable/network/members)
 [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg?style=for-the-badge&labelColor=333)](https://opensource.org/licenses/Apache-2.0)
 [![Version](https://img.shields.io/badge/version-0.36.0-blue.svg?style=for-the-badge&labelColor=333)](package.json)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge&labelColor=333)](CONTRIBUTING.md)
@@ -77,7 +77,7 @@ OpenLovable is built with modern, industry-standard technologies:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/openlovable-sh/openlovable.git
+   git clone https://github.com/ishandutta2007/Open-Laudable.git
    cd openlovable
    ```
 
@@ -126,11 +126,11 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 ## 📈 Star History
 
 <div align="center">
-  <a href="https://star-history.com/#openlovable-sh/openlovable&Date">
+  <a href="https://star-history.com/#ishandutta2007/Open-Laudable&Date">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openlovable-sh/openlovable&type=date&theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=openlovable-sh/openlovable&type=date" />
-      <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=openlovable-sh/openlovable&type=date" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Open-Laudable&type=date&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Open-Laudable&type=date" />
+      <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Open-Laudable&type=date" />
     </picture>
   </a>
 </div>
@@ -146,8 +146,8 @@ OpenLovable is licensed under the **Apache 2.0 License**. See [LICENSE](LICENSE)
 <div align="center">
   <p>Built with ❤️ by the OpenLovable Community</p>
   <p>
-    <a href="https://github.com/openlovable-sh/openlovable/issues">Report Bug</a> •
-    <a href="https://github.com/openlovable-sh/openlovable/issues">Request Feature</a>
+    <a href="https://github.com/ishandutta2007/Open-Laudable/issues">Report Bug</a> •
+    <a href="https://github.com/ishandutta2007/Open-Laudable/issues">Request Feature</a>
   </p>
 </div>
 
