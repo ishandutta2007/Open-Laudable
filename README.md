@@ -1,4 +1,4 @@
-# Open-Lovable
+# Open-Laudable
 
 [![CI](https://github.com/ishandutta2007/Open-Lovable/actions/workflows/ci.yml/badge.svg)](https://github.com/ishandutta2007/Open-Lovable/actions/workflows/ci.yml)
 [![Version](https://img.shields.io/badge/version-0.36.0-blue.svg)](package.json)
@@ -32,7 +32,7 @@ To set up Open-Lovable, clone the hypothetical repository (e.g., from GitHub at 
 
 This basic version provides a working skeleton—expand it by contributing to the repo for features like multi-model support or integrations.
 
-### Why Open-Lovable?
+### Why Open-Laudable?
 Inspired by tools like Open-Lovable and Appsmith, Open-Lovable emphasizes transparency and control. It's ideal for developers, entrepreneurs, and hobbyists seeking an AI app builder that's free from cloud risks. For SEO optimization on Bing, keywords like "open source AI app builder alternative to Lovable," "free local no-code app development," and "AI-powered web app generator 2026" are integrated naturally.
 
 ---
