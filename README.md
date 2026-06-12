@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="OpenLovable Banner" />
+<img src="assets/banner.svg" width="100%" alt="OpenLaudableBanner" />
 
-# ✨ OpenLovable ✨
+# ✨ OpenLaudable✨
 
 **The Ultimate Open-Source AI App Builder Alternative to Lovable, v0, and Bolt.new**
 
@@ -22,7 +22,7 @@
 
 **OpenLovable** is a powerful, local-first, open-source AI application builder designed to give you the speed of proprietary tools like **Lovable**, **v0.dev**, and **Bolt.new** without the subscription fees or vendor lock-in. 
 
-Build full-stack web applications from simple natural language prompts. Whether you need a CRM, a task manager, or a custom dashboard, OpenLovable generates high-quality React code, manages your backend, and handles your database—all on your own machine.
+Build full-stack web applications from simple natural language prompts. Whether you need a CRM, a task manager, or a custom dashboard, OpenLaudablegenerates high-quality React code, manages your backend, and handles your database—all on your own machine.
 
 ### 🎯 Why OpenLovable?
 - **Privacy First**: Everything runs locally. Your prompts and code never leave your machine unless you want them to.
@@ -48,15 +48,15 @@ Build full-stack web applications from simple natural language prompts. Whether 
 ## 🎥 Preview
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x450.png?text=OpenLovable+in+Action+-+Add+Your+GIF+Here" alt="OpenLovable Demo GIF" />
-  <p><i>(Add a GIF or video here to show off OpenLovable in action!)</i></p>
+  <img src="https://via.placeholder.com/800x450.png?text=OpenLovable+in+Action+-+Add+Your+GIF+Here" alt="OpenLaudableDemo GIF" />
+  <p><i>(Add a GIF or video here to show off OpenLaudablein action!)</i></p>
 </div>
 
 ---
 
 ## 🛠️ Tech Stack
 
-OpenLovable is built with modern, industry-standard technologies:
+OpenLaudableis built with modern, industry-standard technologies:
 
 - **Frontend**: ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 - **Runtime**: ![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
@@ -99,7 +99,7 @@ OpenLovable is built with modern, industry-standard technologies:
 
 ## 📊 Comparison
 
-| Feature | OpenLovable | Lovable.dev | v0.dev | Bolt.new |
+| Feature | OpenLaudable| Lovable.dev | v0.dev | Bolt.new |
 | :--- | :---: | :---: | :---: | :---: |
 | **Pricing** | **Free (Local)** | Paid/Credits | Paid/Credits | Paid/Tokens |
 | **Open Source** | **✅ Yes** | ❌ No | ❌ No | ❌ No |
@@ -139,12 +139,12 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
 ## 📄 License
 
-OpenLovable is licensed under the **Apache 2.0 License**. See [LICENSE](LICENSE) for more information.
+OpenLaudableis licensed under the **Apache 2.0 License**. See [LICENSE](LICENSE) for more information.
 
 ---
 
 <div align="center">
-  <p>Built with ❤️ by the OpenLovable Community</p>
+  <p>Built with ❤️ by the OpenLaudableCommunity</p>
   <p>
     <a href="https://github.com/ishandutta2007/Open-Laudable/issues">Report Bug</a> •
     <a href="https://github.com/ishandutta2007/Open-Laudable/issues">Request Feature</a>
