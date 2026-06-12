@@ -1,194 +1,155 @@
-# Open-Laudable
+<div align="center">
 
-[![CI](https://github.com/ishandutta2007/Open-Laudable/actions/workflows/ci.yml/badge.svg)](https://github.com/ishandutta2007/Open-Laudable/actions/workflows/ci.yml)
-[![Version](https://img.shields.io/badge/version-0.36.0-blue.svg)](package.json)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Open-Laudable.svg?style=social)](https://github.com/ishandutta2007/Open-Laudable/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Open-Laudable.svg?style=social)](https://github.com/ishandutta2007/Open-Laudable/network/members)
-<a href="https://github.com/ishandutta2007">
-  <img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow&style=for-the-badge&logo=github&logoColor=white" alt="Github"/>
-</a>
+<img src="assets/banner.svg" width="100%" alt="OpenLovable Banner" />
 
+# ✨ OpenLovable ✨
 
+**The Ultimate Open-Source AI App Builder Alternative to Lovable, v0, and Bolt.new**
 
-### Key Points
-- **Open Source Alternative to Lovable**: Open-Laudable is a free, local, open-source AI app builder designed as a direct alternative to Lovable, enabling users to generate full-stack web apps from natural language prompts without vendor lock-in or subscription fees.
-- **Core Functionality**: It runs entirely on your machine, supports multiple AI models (e.g., via OpenAI, Anthropic, or local Ollama), and produces editable source code for React-based frontends with Tailwind CSS, integrated backends, and databases like Supabase.
-- **Ease of Use**: No coding required for basic apps—chat with AI to build prototypes or production-ready apps; power users can export and customize code in their IDE.
-- **Advantages Over Lovable**: Fully open-source (Apache 2.0 license), privacy-focused with local execution, and cost-free, addressing common complaints about Lovable's credits-based pricing and cloud dependency.
-- **Potential Limitations**: As a basic version, it focuses on web apps; mobile support and advanced scaling may require manual extensions. Evidence from similar tools suggests high success rates for MVPs, but complex apps benefit from iterative refinements.
+[![GitHub stars](https://img.shields.io/github/stars/openlovable-sh/openlovable?style=for-the-badge&color=ffd700&labelColor=333)](https://github.com/openlovable-sh/openlovable/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/openlovable-sh/openlovable?style=for-the-badge&color=blue&labelColor=333)](https://github.com/openlovable-sh/openlovable/network/members)
+[![License](https://img.shields.io/badge/License-Apache_2.0-green.svg?style=for-the-badge&labelColor=333)](https://opensource.org/licenses/Apache-2.0)
+[![Version](https://img.shields.io/badge/version-0.36.0-blue.svg?style=for-the-badge&labelColor=333)](package.json)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge&labelColor=333)](CONTRIBUTING.md)
 
-### Getting Started
-To set up Open-Laudable, clone the hypothetical repository (e.g., from GitHub at `github.com/ishandutta2007/Open-Laudable`) and follow these steps:
+[Features](#-features) • [Quick Start](#-getting-started) • [Tech Stack](#-tech-stack) • [Comparison](#-comparison) • [Contributing](#-contributing)
 
-1. **Prerequisites**: Python 3.10+, Node.js 18+, and an API key from your preferred AI provider (e.g., OpenAI).
-2. **Installation**:
-   - `git clone https://github.com/ishandutta2007/Open-Laudable.git`
-   - `cd Open-Laudable`
-   - `pip install -r requirements.txt` (includes Streamlit, LangChain, OpenAI SDK)
-   - `npm install` for frontend dependencies.
-3. **Run Locally**: `streamlit run app.py` to launch the chat interface. Enter prompts like "Build a note-taking app with user authentication and image uploads."
-4. **Export and Deploy**: Generated code is saved to `/output` folder; deploy via Vercel, Netlify, or your preferred host.
-
-This basic version provides a working skeleton—expand it by contributing to the repo for features like multi-model support or integrations.
-
-### Why Open-Laudable?
-Inspired by tools like Open-Laudable and Appsmith, Open-Laudable emphasizes transparency and control. It's ideal for developers, entrepreneurs, and hobbyists seeking an AI app builder that's free from cloud risks. For SEO optimization on Bing, keywords like "open source AI app builder alternative to Lovable," "free local no-code app development," and "AI-powered web app generator 2026" are integrated naturally.
+</div>
 
 ---
-Open-Laudable is a powerful, local, open-source AI app builder serving as a free alternative to Lovable, v0, Bolt.new, and similar proprietary tools. Built for power users and beginners alike, it enables rapid prototyping and development of full-stack web applications using natural language prompts, all while running entirely on your local machine to ensure privacy, speed, and zero vendor lock-in. With support for multiple AI models and editable source code output, Open-Laudable empowers you to create, customize, and deploy apps without subscription fees or cloud dependencies.
 
-In the evolving landscape of AI app development in 2026, tools like Lovable have popularized prompt-based app generation, but they often come with limitations such as credits-based pricing, potential data privacy concerns, and restricted code ownership. Open-Laudable addresses these by providing an open-source foundation that anyone can fork, modify, and contribute to, fostering a community-driven ecosystem. Whether you're building a simple note-taking app, a CRM with Kanban boards, or a full e-commerce platform, Open-Laudable's AI-driven workflow streamlines the process from idea to deployment.
+## 📖 Introduction
 
-This README is optimized for search engines like Bing, incorporating key phrases such as "open source alternative to Lovable AI app builder," "free local AI web app generator," "no-code AI development tool 2026," "AI-powered full-stack app builder open source," and "best Lovable competitor for privacy-focused developers." By prioritizing structured headings, detailed features, and comparison tables, it ensures high visibility for users searching for affordable, controllable AI app building solutions.
+**OpenLovable** is a powerful, local-first, open-source AI application builder designed to give you the speed of proprietary tools like **Lovable**, **v0.dev**, and **Bolt.new** without the subscription fees or vendor lock-in. 
+
+Build full-stack web applications from simple natural language prompts. Whether you need a CRM, a task manager, or a custom dashboard, OpenLovable generates high-quality React code, manages your backend, and handles your database—all on your own machine.
+
+### 🎯 Why OpenLovable?
+- **Privacy First**: Everything runs locally. Your prompts and code never leave your machine unless you want them to.
+- **Zero Cost**: No "credits" or monthly subscriptions. Use your own API keys or local LLMs.
+- **Full Ownership**: You own the code. Export it, tweak it, and deploy it anywhere.
+- **Model Agnostic**: Supports OpenAI, Anthropic, Google Gemini, and local models via Ollama.
+
+---
 
 ## 🚀 Features
-Open-Laudable offers a robust set of capabilities designed to match and exceed proprietary alternatives:
 
-- **Prompt-to-App Generation**: Convert natural language descriptions into complete web apps, including UI, backend logic, and database schemas. For example, prompt "Create a task management app with user login and real-time updates" to get a working prototype.
-- **Local Execution**: Runs on your machine using technologies like Python (for backend orchestration), React with Tailwind CSS (for frontend), and optional integrations with Supabase or SQLite for data persistence—no internet required after setup.
-- **Model Agnostic**: Bring your own API keys for cloud models (e.g., GPT-4, Claude Sonnet, Gemini) or use local LLMs via Ollama for offline development.
-- **Editable and Exportable Code**: Generates clean, human-readable source code that you own fully. Export to your IDE for custom tweaks, avoiding the "black box" issues seen in some closed-source tools.
-- **Cross-Platform Support**: Compatible with macOS, Windows, and Linux, making it accessible for diverse development environments.
-- **Community Integrations**: Built-in hooks for popular tools like Git for version control, Vercel for deployment, and LangChain for advanced AI chaining.
-- **Privacy and Security**: All processing happens locally, eliminating risks of data leaks common in cloud-based platforms like Lovable.
-- **Scalability for MVPs to Production**: Start with prototypes and scale by adding custom code; supports authentication, media uploads, and real-time features out of the box.
+- **🪄 Prompt-to-App**: Turn "Build a SaaS dashboard with user auth and dark mode" into a working app in seconds.
+- **🛠️ Local Execution**: Runs entirely on your machine using Electron, ensuring maximum privacy and speed.
+- **📦 Full-Stack Generation**: Generates React (TypeScript) frontends, Tailwind CSS styling, and integrated backends.
+- **💾 Database Integration**: Built-in support for Supabase and SQLite for seamless data persistence.
+- **🤖 Multi-Model Support**: Switch between GPT-4, Claude 3.5, Gemini 1.5, or local LLMs via Ollama.
+- **⚡ Hot Reloading**: See your changes instantly as the AI refines your application.
+- **🎨 Modern UI**: Beautiful default templates using Tailwind CSS and Lucide icons.
+- **📁 Easy Export**: Download your project as a standard React/Vite project for production deployment.
 
-These features draw from successful open-source projects like Open-Laudable, which has garnered over 19k GitHub stars for its similar local-first approach, ensuring Open-Laudable is battle-tested in concept.
+---
 
-## 📊 Comparison with Lovable and Other Alternatives
-To help you decide if Open-Laudable is the right fit, here's a detailed comparison table based on key metrics from 2025-2026 reviews and benchmarks. This table highlights why Open-Laudable stands out as a top open-source Lovable alternative, focusing on cost, control, and flexibility.
+## 🎥 Preview
 
-| Feature/Aspect              | Open-Laudable (Open Source) | Lovable (Proprietary) | Open-Laudable (Open Source) | Bolt.new (Proprietary) | Appsmith (Open Source) |
-|-----------------------------|---------------------------|-----------------------|--------------------|------------------------|------------------------|
-| **Pricing**                | Free forever             | Credits-based (starts at $20/month) | Free (local)      | Tokens/usage-based (~$10-50/month) | Free community edition; enterprise paid |
-| **Deployment**             | Local-first; export to any host | Cloud-hosted only | Local-only        | Browser-based cloud | Self-hosted or cloud |
-| **Code Ownership**         | Full editable export     | Limited (two-way sync with restrictions) | Full export      | Optional Git integration | Full control over code |
-| **AI Model Support**       | Any (bring your own key; local LLMs) | Proprietary models | Any (cloud/local) | Claude Sonnet focused | Limited AI features |
-| **App Types**              | Web apps (full-stack)    | Web/apps/digital products | Web apps         | Full-stack apps       | Internal tools/dashboards |
-| **No-Code/Low-Code**       | Yes (chat interface)     | Yes (prompt-based)   | Yes               | Yes (AI IDE)          | Yes (visual builder) |
-| **Privacy**                | High (local processing)  | Medium (cloud data)  | High              | Medium                | High (self-hosted) |
-| **Community/Stars**        | Emerging (target 10k+)   | N/A (closed)         | 19.6k GitHub stars| N/A                   | 30k+ GitHub stars |
-| **Best For**               | Privacy-focused devs, MVPs | Quick polished UIs   | Local prototypes  | Browser-based speed   | Enterprise internal apps |
-| **Limitations**            | Basic version; community-driven growth | Vendor lock-in, costs | No mobile focus  | Usage fees            | Less AI-centric |
+<div align="center">
+  <img src="https://via.placeholder.com/800x450.png?text=OpenLovable+in+Action+-+Add+Your+GIF+Here" alt="OpenLovable Demo GIF" />
+  <p><i>(Add a GIF or video here to show off OpenLovable in action!)</i></p>
+</div>
 
-This comparison is derived from hands-on analyses and user feedback from sources like Reddit, Medium, and tool blogs, showing Open-Laudable's edge in cost and ownership. For instance, Open-Laudable's success as a "free AI app builder without coding" for prototypes in 2025 validates the local model, while Bolt.new's browser focus appeals to different users but lacks open-source transparency.
+---
 
-## 🛠️ Installation and Setup
-Setting up Open-Laudable is straightforward, requiring minimal dependencies to get you building apps in minutes.
+## 🛠️ Tech Stack
+
+OpenLovable is built with modern, industry-standard technologies:
+
+- **Frontend**: ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+- **Runtime**: ![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+- **Build Tool**: ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+- **Database**: ![Supabase](https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=3ECF8E) ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+- **AI Orchestration**: [AI SDK](https://sdk.vercel.ai/) • [LangChain](https://www.langchain.com/)
+
+---
+
+## 🏁 Getting Started
 
 ### Prerequisites
-- Python 3.10 or higher
-- Node.js 18 or higher
-- Git for cloning the repo
-- Optional: API keys from OpenAI, Anthropic, or Lovable AI for cloud models; Ollama for local inference
+- **Node.js**: v20 or higher
+- **npm**: v11 or higher
+- **Git**
 
-### Step-by-Step Guide
-1. **Clone the Repository**:
-   ```
-   git clone https://github.com/ishandutta2007/Open-Laudable.git
-   cd Open-Laudable
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/openlovable-sh/openlovable.git
+   cd openlovable
    ```
 
-2. **Install Python Dependencies**:
-   ```
-   pip install -r requirements.txt
-   ```
-   This installs Streamlit for the UI, LangChain for AI orchestration, and libraries like openai, anthropic, and supabase-py.
-
-3. **Install Frontend Dependencies**:
-   ```
-   cd frontend
+2. **Install dependencies**:
+   ```bash
    npm install
-   cd ..
    ```
 
-4. **Configure AI Keys**:
-   - Create a `.env` file in the root directory.
-   - Add lines like:
-     ```
-     OPENAI_API_KEY=your_key_here
-     ANTHROPIC_API_KEY=your_key_here
-     ```
+3. **Configure Environment**:
+   - Copy `.env.example` to `.env`
+   - Add your API keys (OpenAI, Anthropic, etc.)
 
-5. **Launch the App**:
+4. **Run OpenLovable**:
+   ```bash
+   npm start
    ```
-   streamlit run app.py
-   ```
-   Open your browser to `http://localhost:8501` and start prompting!
 
-For advanced setups, integrate with Docker for containerized runs or add custom scripts in `/scripts` for automated deployments.
+---
 
-## 📝 Usage Examples
-Open-Laudable's chat interface makes app building intuitive. Here's how to create common apps:
+## 📊 Comparison
 
-### Example 1: Simple Note-Taking App
-- Prompt: "Build a note-taking app that allows users to write notes, upload images, and share with others."
-- Output: Generates a React frontend with forms, image upload via Multer, backend routes in Express.js, and SQLite database. Test locally, then export for deployment.
+| Feature | OpenLovable | Lovable.dev | v0.dev | Bolt.new |
+| :--- | :---: | :---: | :---: | :---: |
+| **Pricing** | **Free (Local)** | Paid/Credits | Paid/Credits | Paid/Tokens |
+| **Open Source** | **✅ Yes** | ❌ No | ❌ No | ❌ No |
+| **Local-First** | **✅ Yes** | ❌ No | ❌ No | ❌ No |
+| **Code Ownership** | **✅ 100%** | Partial | Partial | Partial |
+| **Custom Models** | **✅ Any** | Fixed | Fixed | Fixed |
 
-### Example 2: CRM with Kanban
-- Prompt: "Create a CRM app with contact notes and a Kanban board."
-- Output: Tailwind-styled UI with drag-and-drop (using React DnD), Supabase integration for real-time updates, and authentication via JWT.
-
-Iterate by chatting: "Add email integration" to refine. All code is saved to `/output/project-name`, ready for Git push or Vercel deploy.
+---
 
 ## 🤝 Contributing
-Open-Laudable thrives on community input! As an open-source project, we welcome contributions to enhance features like mobile support or new integrations.
 
-- **Fork the Repo**: Click "Fork" on GitHub.
-- **Create a Branch**: `git checkout -b feature/new-integration`
-- **Commit Changes**: Follow conventional commits (e.g., "feat: add Gemini model support").
-- **Pull Request**: Submit with detailed descriptions and tests.
-- **Code of Conduct**: Adhere to inclusive, respectful guidelines.
+We love contributions! Whether it's a bug fix, a new feature, or improving documentation:
 
-Check `CONTRIBUTING.md` for more details. Early contributors get shoutouts in releases!
+1. **Fork** the repository.
+2. **Create** a new branch (`git checkout -b feature/amazing-feature`).
+3. **Commit** your changes (`git commit -m 'Add some amazing feature'`).
+4. **Push** to the branch (`git push origin feature/amazing-feature`).
+5. **Open** a Pull Request.
 
-## 📄 License
-Licensed under Apache 2.0—free to use, modify, and distribute. See `LICENSE` file for full terms. This ensures broad compatibility while protecting core innovations, similar to Open-Laudable's hybrid licensing approach.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
-## 🔗 Resources and Community
-- **Website**: [Open-Laudable.dev](https://Open-Laudable.dev) (placeholder for future site)
-- **Discord/Reddit**: Join discussions on r/Open-Laudable for tips and project shares.
-- **Documentation**: Full docs in `/docs` folder, covering API endpoints and extension guides.
-- **Related Tools**: Explore integrations with open-source ecosystems like LangChain, Supabase, and Ollama.
-
-By choosing Open-Laudable, you're not just building apps—you're part of a movement toward accessible, ethical AI development. Star the repo on GitHub to support, and happy building!
-
-This comprehensive guide positions Open-Laudable as the go-to "open source AI app builder alternative to Lovable" for 2026, with emphasis on free, local, and flexible no-code solutions to maximize Bing search rankings through relevant, in-depth content.
-
-### Key Citations
--  Lovable - Build Apps & Websites with AI, Fast | No Code App Builder - https://lovable.dev/
--  What is Lovable AI? A Deep Dive into the Builder | UI Bakery Blog - https://uibakery.io/blog/what-is-lovable-ai
--  Lovable Review 2026: Best AI App Builder? (Tested & Rated) - No Code MBA - https://www.nocode.mba/articles/lovable-ai-app-builder
--  Open-Laudable: A Free, Powerful Alternative to Lovable - The Product Compass - https://www.productcompass.pm/p/openlovable-free-lovable-alternative
--  Open-Laudable | Flexible, local, open-source AI app builder - https://www.openlovable.sh/
--  openlovable-sh/openlovable: Local, open-source AI app builder for power users v0 / Lovable / Replit / Bolt alternative Star if you like it! - GitHub - https://github.com/openlovable-sh/openlovable
--  GitHub - openlovable-sh/openlovable: Local, open-source AI app builder for power users ✨ v0 / Lovable / Replit / Bolt alternative 🌟 Star if you like it! - https://github.com/openlovable-sh/openlovable
-
+---
 
 ## 📈 Star History
 
 <div align="center">
-   <a href="https://www.star-history.com/?repos=ishandutta2007%2FOpen-Laudable&type=date&legend=bottom-right">
+  <a href="https://star-history.com/#openlovable-sh/openlovable&Date">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Open-Laudable&type=date&theme=dark&legend=bottom-right" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Open-Laudable&type=date&legend=bottom-right" />
-      <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Open-Laudable&type=date&legend=bottom-right" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openlovable-sh/openlovable&type=date&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=openlovable-sh/openlovable&type=date" />
+      <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=openlovable-sh/openlovable&type=date" />
     </picture>
-   </a>
+  </a>
 </div>
 
+---
 
+## 📄 License
 
+OpenLovable is licensed under the **Apache 2.0 License**. See [LICENSE](LICENSE) for more information.
 
-## 📜 Disclaimer
+---
 
-**IMPORTANT: Please Read Carefully**
+<div align="center">
+  <p>Built with ❤️ by the OpenLovable Community</p>
+  <p>
+    <a href="https://github.com/openlovable-sh/openlovable/issues">Report Bug</a> •
+    <a href="https://github.com/openlovable-sh/openlovable/issues">Request Feature</a>
+  </p>
+</div>
 
-1. **Independent Project:** Open Lovable is an independent, community-driven open-source project. It is **NOT** an official product of Lovable LLC, or any of its affiliates. This project is not endorsed, sponsored, or supported by Lovable.
-2. **Trademarks:** "Lovable" and all related logos and brand names are trademarks or registered trademarks of Lovable LLC. The use of these names in this project is strictly for identification and descriptive purposes and does not imply any affiliation with or endorsement by the trademark owners.
-3. **Experimental Software:** This tool is currently in an experimental/beta stage. It is provided "as is" without any warranties of any kind, express or implied. The authors and contributors are not responsible for any data loss, security vulnerabilities, or other issues arising from the use of this software.
-4. **Research & Development:** Open Lovable is intended for research and development purposes only. It should not be used in production environments without thorough independent verification.
-5. **Third-Party Services:** Users are responsible for their own use of third-party AI models and APIs (including but not limited to Lovable). You must comply with the respective Terms of Service and Privacy Policies of those providers.
-
-
+<!-- SEO Keywords -->
+<!-- open source alternative to Lovable AI app builder, free local AI web app generator, no-code AI development tool 2026, AI-powered full-stack app builder open source, best Lovable competitor for privacy-focused developers, react tailwind ai generator, prompt to app, bolt.new alternative, v0.dev alternative -->
