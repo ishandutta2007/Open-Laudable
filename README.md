@@ -11,6 +11,9 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg?style=for-the-badge&labelColor=333)](https://opensource.org/licenses/Apache-2.0)
 [![Version](https://img.shields.io/badge/version-0.36.0-blue.svg?style=for-the-badge&labelColor=333)](package.json)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge&labelColor=333)](CONTRIBUTING.md)
+<a href="https://github.com/ishandutta2007?tab=followers">
+  <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.herokuapp.com/github/followers/ishandutta2007?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/>
+</a>
 
 [Features](#-features) • [Quick Start](#-getting-started) • [Tech Stack](#-tech-stack) • [Comparison](#-comparison) • [Contributing](#-contributing)
 
