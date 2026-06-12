@@ -20,11 +20,11 @@
 
 ## 📖 Introduction
 
-**OpenLovable** is a powerful, local-first, open-source AI application builder designed to give you the speed of proprietary tools like **Lovable**, **v0.dev**, and **Bolt.new** without the subscription fees or vendor lock-in. 
+**OpenLaudable** is a powerful, local-first, open-source AI application builder designed to give you the speed of proprietary tools like **Lovable**, **v0.dev**, and **Bolt.new** without the subscription fees or vendor lock-in. 
 
 Build full-stack web applications from simple natural language prompts. Whether you need a CRM, a task manager, or a custom dashboard, OpenLaudablegenerates high-quality React code, manages your backend, and handles your database—all on your own machine.
 
-### 🎯 Why OpenLovable?
+### 🎯 Why OpenLaudable?
 - **Privacy First**: Everything runs locally. Your prompts and code never leave your machine unless you want them to.
 - **Zero Cost**: No "credits" or monthly subscriptions. Use your own API keys or local LLMs.
 - **Full Ownership**: You own the code. Export it, tweak it, and deploy it anywhere.
@@ -48,7 +48,7 @@ Build full-stack web applications from simple natural language prompts. Whether 
 ## 🎥 Preview
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x450.png?text=OpenLovable+in+Action+-+Add+Your+GIF+Here" alt="OpenLaudableDemo GIF" />
+  <img src="https://via.placeholder.com/800x450.png?text=OpenLaudable+in+Action+-+Add+Your+GIF+Here" alt="OpenLaudableDemo GIF" />
   <p><i>(Add a GIF or video here to show off OpenLaudablein action!)</i></p>
 </div>
 
@@ -78,7 +78,7 @@ OpenLaudableis built with modern, industry-standard technologies:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/ishandutta2007/Open-Laudable.git
-   cd openlovable
+   cd OpenLaudable
    ```
 
 2. **Install dependencies**:
@@ -90,7 +90,7 @@ OpenLaudableis built with modern, industry-standard technologies:
    - Copy `.env.example` to `.env`
    - Add your API keys (OpenAI, Anthropic, etc.)
 
-4. **Run OpenLovable**:
+4. **Run OpenLaudable**:
    ```bash
    npm start
    ```
