@@ -185,7 +185,7 @@ This comprehensive guide positions Open-Laudable as the go-to "open source AI ap
 
 **IMPORTANT: Please Read Carefully**
 
-1. **Independent Project:** Open Lovable is an independent, community-driven open-source project. It is **NOT** an official product of Lovable LLC, Alphabet Inc., or any of its affiliates. This project is not endorsed, sponsored, or supported by Lovable.
+1. **Independent Project:** Open Lovable is an independent, community-driven open-source project. It is **NOT** an official product of Lovable LLC, or any of its affiliates. This project is not endorsed, sponsored, or supported by Lovable.
 2. **Trademarks:** "Lovable" and all related logos and brand names are trademarks or registered trademarks of Lovable LLC. The use of these names in this project is strictly for identification and descriptive purposes and does not imply any affiliation with or endorsement by the trademark owners.
 3. **Experimental Software:** This tool is currently in an experimental/beta stage. It is provided "as is" without any warranties of any kind, express or implied. The authors and contributors are not responsible for any data loss, security vulnerabilities, or other issues arising from the use of this software.
 4. **Research & Development:** Open Lovable is intended for research and development purposes only. It should not be used in production environments without thorough independent verification.
